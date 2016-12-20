@@ -1,0 +1,161 @@
+body {
+  padding-top: 50px;
+  background: #000000;
+}
+
+section {
+	padding:0px 0 40px 0;
+}
+
+h3 {
+	color: #5dd991;
+	font-weight: bold; 
+}
+
+a {
+	color: #5dd991
+}
+.color-text{
+	color: #5dd991 !important;
+}
+
+.jumbotron {
+	background: url(../img/site_showcase_bg.jpg) no-repeat top center; 
+	height: 600px;
+	overflow:none;
+	color: #FFFFFF;
+}
+
+.jumbotron h1 {
+	margin-top: 60px;
+}
+
+.jumbotron p {
+	margin-bottom: 0px;
+}
+
+.jumbotron .app-btn {
+	width: 40%;
+	margin-right: 30px;
+	margin-top: 350px;
+}
+
+img.imgstyle {
+	width:100%;
+	border: 1px solid #cccccc;
+}
+
+img.headshot {
+	width: 200px;
+	border: 1px solid #cccccc;
+}
+
+img.media-object {
+	width: 64px;
+}
+
+section#layer2 {
+	background: #5dd991;
+	color: #FFFFFF;
+}
+
+section#layer2 ul li {
+	font-size: 20px;
+	list-style:none;
+	line-height:2;
+}
+
+section#layer2 ul {
+	margin:0;
+	padding:0; 
+}
+
+section#title-bar {
+	padding: 0;
+	margin:0;
+	height:80px;
+	background: #5dd991;
+	color: #FFFFFF;
+}
+
+section#title-bar h1 {
+	margin-bottom: 20px;
+}
+
+footer {
+	background: #409c58;
+	color: #000000;
+	padding: 30px 0 30px 0;
+}
+
+footer li {
+	float:left;
+	padding:0 10px 0 10px;
+	list-style:none;
+}
+
+footer a {
+	color:#FFFFFF;
+}
+
+.thumbnail {
+	margin: 10px 0px 10px 0px;
+}
+
+.btn-apply {
+  background-color: #5dd991;
+  color: #FFFFFF;
+  border-color: #cccccc;
+}
+
+.btn-apply:hover{
+  background-color: #9b313d;
+  color: #FFFFFF;
+}
+
+.carousel{
+	margin: 10px 0px 10px 0px;	
+}
+
+@media(max-width: 991px) {
+
+	.jumbotron {
+		height: 450px !important;
+		background-size: 100% 100%;
+	}
+
+	.jumbotron img.app-btn {
+		width: 20%;
+		margin: 0 auto 30px auto;
+	}
+}
+
+@media(max-width: 767px) {
+
+	.jumbotron img.app-btn {
+		width: 25%;
+		margin: 0 auto 30px auto;
+	}
+}
+
+
+@media(max-width: 500px) {
+
+	.jumbotron {
+		text-align: center;
+	}
+
+	.jumbotron img.app-btn {
+		width: 35%;
+		margin: 0 auto 30px auto;
+	}
+
+	footer p {
+		float: none;
+		text-align: center;
+	}
+
+	section#layer2 ul li {
+		font-size: 15px;
+	}
+}
